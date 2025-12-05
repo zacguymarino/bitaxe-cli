@@ -10,15 +10,18 @@ This tool intentionally **does not modify frequency, voltage, or fan settings** 
 | Command | Purpose |
 |--------|---------|
 | `status` | Pretty prints important miner statistics |
-| `dashboard` | Dumps JSON from dashboard statistics API |
 | `restart` | Sends restart command to Bitaxe |
 
-Reads key telemetry such as:
-- Hashrate  
+Reads key data:
+- Hostname
+- Hashrate
+- Best Diff
+- Best Session Diff
+- Shares Accepted / Rejected
 - Core / VR temperatures  
 - Power usage  
-- Voltage info  
-- WiFi status  
-- Uptime  
+- Voltage info
+- Frequency
+- WiFi status
 
 ---
